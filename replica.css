@@ -1,0 +1,218 @@
+@font-face{
+    font-family: "fuente?";
+    src:url("Jupiter-Love.ttf");
+}
+@font-face{
+    font-family: "otraf";
+    src:url("Born.ttf");
+}
+
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#contenedor-preguntas{
+display: flex;
+flex-flow: row wrap;
+text-align: center;
+width: 700px;
+justify-content: space-evenly;
+margin-left: 50px;
+}
+#contenedor-preguntas div{
+    font-family: "fuente?";
+}
+
+#pregunta1{
+    font-size: 20px;
+    color: orange;
+    margin: 5px;
+}
+#pregunta2{
+    font-size: 20px;
+    color: mediumpurple;
+    margin: 5px;
+}
+#pregunta3{
+    font-size: 15px;
+    color: mediumseagreen;
+    margin: 5px;
+}
+#pregunta4{
+    font-size: 15px;
+    color: #3933FF;
+    margin: 8px;
+}
+#pregunta5{
+    font-size: 25px;
+    color: #B233FF;
+    margin: 5px;
+}
+#pregunta6{
+    font-size: 20px;
+    color: #4F7075;
+    margin-bottom: 20px;
+}
+#pregunta7{
+    font-size: 20px;
+    color: #327B3D;
+}
+#pregunta8{
+    font-size: 20px;
+    color: #82641E;
+}
+#pregunta9{
+    font-size: 20px;
+    color: #E28419 ;
+}
+#pregunta10{
+    font-size: 30px;
+    color: #E5C814;
+}
+#pregunta11{
+    font-size: 24px;
+    color: purple;
+}
+#pregunta12{
+    font-size: 30px;
+    color: #D14438;
+    margin-top: 8px;
+}
+#contenedor-carrusel{
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    bottom: 500px;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+#contenedor-carrusel figure{
+    position: absolute;
+    right: 80px;
+    margin-top: 300px;
+}
+#contenedor-carrusel figure:nth-child(1){
+    transform: rotateX(0deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(2){
+    transform: rotateX(36deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(3){
+    transform: rotateX(72deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(4){
+    transform: rotateX(108deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(5){
+    transform: rotateX(144deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(6){
+    transform: rotateX(180deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(7){
+    transform: rotateX(216deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(8){
+    transform: rotateX(288deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(9){
+    transform: rotateX(324deg) translateZ(180px);
+}
+#contenedor-carrusel figure:nth-child(10){
+    transform: rotateX(360deg) translateZ(180px);
+}
+@keyframes rotar{
+    from{
+        transform: rotateX(360deg);}
+    to{
+        transform: rotateY(0deg);}
+    }
+#section2{
+    background-image:url(https://www.hcmarbella.com/wp-content/uploads/2019/09/musica_y_cerebro.jpg);
+    position: relative;
+    width: 1349px;
+   height: 400px;
+   padding-left: 0px;
+   background-size: cover;
+}
+#medios-pago p{
+    font-family: "otraf";
+    font-size: 40px;
+}
+#medios-pago{
+    width: 500px;
+    position: relative;
+    top: 170px;
+    left: 90px;
+}
+#bancos img{
+    width: 70px;
+    height: 70px;
+}
+#slider img{
+    width: 170px;
+    height: 170px;
+}
+#bancos{
+    position: relative;
+    top: 170px;
+    left: 90px;
+    background-color: whitesmoke;
+    width: 400px;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+#section3{
+    background: #ffe076;
+    color: #16265d;
+    padding: 2em;
+    margin: 0;
+    border-bottom: orange;
+    font-family: "otraf";
+}
+#section3 h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 0px;
+}
+.icon img{
+    width: 64px;
+    height: 127px;
+}
+#section3 #timecontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#section3 #timecontainer .icon{
+    display: flex;
+}
+.icon+.icon{
+    float: right;
+    position: relative;
+    bottom: 200px;
+}
+.icon~p{
+    text-align: center;
+}
+@media only screen and (min-width: 1200px)
+html {
+    font-size: 15px
+
+
+
+
+
+
+
+
+
+
+
+
